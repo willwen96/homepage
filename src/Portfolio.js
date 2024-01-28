@@ -64,23 +64,6 @@ function Portfolio() {
                     </details>
                 </section>
                 <section className="work">
-                    <details open style={{width: '100%'}}>
-                        <summary><strong>Snap Map</strong></summary>
-                        <p>A mobile app that aims to inspire wanderlust, foster meaningful connections, and create a global community of passionate travelers.</p><br/>
-                        <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", width: "fit-content"}}>
-                            <p style={{width: "fit-content"}}><b>Role: </b>Product Manager & Tech Lead</p>
-                            <p><b>Tools:</b> React Native, MongoDB, Netlify, AWS, Ably</p>
-                        </div>
-                        <section className={"flex_row"} style={{justifyContent: 'space-evenly', width: '100%'}}>
-                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo1.png"} alt="demo1"/>
-                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo2.png"} alt="demo2"/>
-                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo3.png"} alt="demo3"/>
-                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo4.png"} alt="demo4"/>
-                        </section>
-                        <i>Fig. 1 - Medium-fidelity prototypes with full functions implemented</i>
-                    </details>
-                </section>
-                <section className="work">
                     <details open>
                         <summary><strong>Goal Tritons</strong></summary>
                         <p>A highly accessible & integrated informational website for career-finding among UCSD students</p><br/><br/>
@@ -89,7 +72,7 @@ function Portfolio() {
                             <p style={{width: "fit-content"}}><b>Role: </b> Tech Lead</p>
                             <p><b>Tools:</b> Vue, AWS, SpringBoot, Node.js</p>
                         </div>
-                        <a href="https://dynamic-crisp-4efd82.netlify.app/" target="_blank"><img src={process.env.PUBLIC_URL + "/GT_home.svg"} alt="A computer screen showing Goal Tritons' Home Page" width="680px" height="510px" style={{marginLeft: "50px"}}/></a>
+                        <a href="https://dynamic-crisp-4efd82.netlify.app/" target="_blank"><img src={process.env.PUBLIC_URL + "/GT_home.svg"} alt="Goal Tritons' Home Page" width="680px" height="510px" loading="lazy" style={{marginLeft: "50px"}}/></a>
                     </details>
                 </section>
                 <section className="work">

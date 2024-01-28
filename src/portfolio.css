@@ -25,10 +25,10 @@
 }
 
 @media (max-width: 767px) {
-    .flex_row {
+    #Portfolio .flex_row {
         flex-direction: column;
     }
-    .flex_row img {
+    #Portfolio .flex_row img {
         width: 80% !important;
         margin-left: auto !important;
         margin-right: auto !important;
@@ -38,7 +38,7 @@
         width: 100%;
     }
 
-    img[src="/QiDemo.jpeg"] {
+    #Portfolio img[src="/QiDemo.jpeg"] {
         margin-bottom: 2rem !important;
         margin-left: 10% !important;
     }
