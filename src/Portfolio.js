@@ -64,6 +64,23 @@ function Portfolio() {
                     </details>
                 </section>
                 <section className="work">
+                    <details open style={{width: '100%'}}>
+                        <summary><strong>UCal San Diego</strong></summary>
+                        <p>A comprehensive calorie and nutrition tracker application to help users easily track their daily food intake and monitor nutritional information.</p><br/>
+                        <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", width: "fit-content"}}>
+                            <p style={{width: "fit-content"}}><b>Role: </b>Co-leader, Scrum Master</p>
+                            <p><b>Tools:</b> React Native Expo, MongoDB, Netlify </p>
+                        </div>
+                        <section className={"flex_row"} style={{justifyContent: 'space-evenly', width: '100%'}}>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/profile.jpg"} alt="demo1"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/dashboard.PNG"} alt="demo2"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/stats.PNG"} alt="demo3"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/foods.PNG"} alt="demo4"/>
+                        </section>
+                        <i>Fig. 2 - Medium-fidelity prototypes with full functions implemented</i>
+                    </details>
+                </section>
+                <section className="work">
                     <details open>
                         <summary><strong>Goal Tritons</strong></summary>
                         <p>A highly accessible & integrated informational website for career-finding among UCSD students</p><br/><br/>
@@ -72,7 +89,7 @@ function Portfolio() {
                             <p style={{width: "fit-content"}}><b>Role: </b> Tech Lead</p>
                             <p><b>Tools:</b> Vue, AWS, SpringBoot, Node.js</p>
                         </div>
-                        <a href="https://dynamic-crisp-4efd82.netlify.app/" target="_blank"><img src={process.env.PUBLIC_URL + "/GT_home.svg"} alt="Goal Tritons' Home Page" width="680px" height="510px" loading="lazy" style={{marginLeft: "50px"}}/></a>
+                        <a href="https://dynamic-crisp-4efd82.netlify.app/" target="_blank"><img src={process.env.PUBLIC_URL + "/GT_home.svg"} alt="Goal Tritons' Home Page" width="680px" height="510px" loading="lazy"/></a>
                     </details>
                 </section>
                 <section className="work">
@@ -85,7 +102,7 @@ function Portfolio() {
                         </div>
                         <figure>
                             <img src={process.env.PUBLIC_URL + "/BOF.png"} alt="Birds of a Feather Wireframe" />
-                            <figcaption><i>Fig. 2 - One of the wireframes we drew</i></figcaption>
+                            <figcaption><i>Fig. 3 - One of the wireframes we drew</i></figcaption>
                         </figure>
                     </details>
                 </section>

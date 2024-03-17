@@ -30,7 +30,7 @@ function Skills() {
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/react.svg"} alt="React icon" />
-                        <p> React </p> <br /> <p> 1 Year <br /> 2 Projects </p>
+                        <p> React/React Native </p> <br /> <p> 2 Years <br /> 4 Projects </p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/node.svg"} alt="Node.js icon" />
