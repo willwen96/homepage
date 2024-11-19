@@ -89,7 +89,7 @@ function Portfolio() {
                             <p style={{width: "fit-content"}}><b>Role: </b> Tech Lead</p>
                             <p><b>Tools:</b> Vue, AWS, SpringBoot, Node.js</p>
                         </div>
-                        <a href="https://dynamic-crisp-4efd82.netlify.app/" target="_blank"><img src={process.env.PUBLIC_URL + "/GT_home.svg"} alt="Goal Tritons' Home Page" width="680px" height="510px" loading="lazy" style={{marginLeft: "50px"}}/></a>
+                        <a href="https://goaltritons.netlify.app/" target="_blank"><img src={process.env.PUBLIC_URL + "/GT_home.svg"} alt="Goal Tritons' Home Page" width="680px" height="510px" loading="lazy" style={{marginLeft: "50px"}}/></a>
                     </details>
                 </section>
                 <section className="work">
