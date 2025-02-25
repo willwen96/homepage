@@ -71,7 +71,7 @@ function Home () {
                         </a>
                     </div>
                     <div id="home_button" className="flex_row" style={{ marginTop: '2em' }}>
-                        <form action={process.env.PUBLIC_URL + "/Junhui_WEN_Resume.pdf"} method="get" style={{ margin: '0 2em 0 2em' }}>
+                        <form action={process.env.PUBLIC_URL + "/Junhui WEN Resume.pdf"} method="get" style={{ margin: '0 2em 0 2em' }}>
                             <button>Resume</button>
                         </form>
                         <form>
