@@ -26,7 +26,7 @@ function Portfolio() {
                 <section className="work">
                     <details open style={{width: '100%'}}>
                         <a href="https://memohub.framer.website/" target="_blank">
-                            <summary><strong>MemoHub</strong></summary>
+                            <summary style={{ color: "#438E97" }}><strong>MemoHub</strong></summary>
                         </a>
                         <p>An iOS app that effortlessly sorts your ideas, plans, and notes with smart tags designed for clarity and efficiency</p><br/>
                         <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", width: "fit-content"}}>
@@ -74,10 +74,10 @@ function Portfolio() {
                             <p><b>Tools:</b> React Native, MongoDB, Netlify, AWS, Ably</p>
                         </div>
                         <section className={"flex_row"} style={{justifyContent: 'space-evenly', width: '100%'}}>
-                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo1.png"} alt="demo1"/>
-                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo2.png"} alt="demo2"/>
-                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo3.png"} alt="demo3"/>
-                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo4.png"} alt="demo4"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo1.png"} alt="demo1" loading="lazy"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo2.png"} alt="demo2" loading="lazy"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo3.png"} alt="demo3" loading="lazy"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo4.png"} alt="demo4" loading="lazy"/>
                         </section>
                         <i>Fig. 2 - Medium-fidelity prototypes with full functions implemented</i>
                     </details>
@@ -91,10 +91,10 @@ function Portfolio() {
                             <p><b>Tools:</b> React Native Expo, MongoDB, Netlify </p>
                         </div>
                         <section className={"flex_row"} style={{justifyContent: 'space-evenly', width: '100%'}}>
-                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/profile.jpg"} alt="demo1"/>
-                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/dashboard.PNG"} alt="demo2"/>
-                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/stats.PNG"} alt="demo3"/>
-                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/foods.PNG"} alt="demo4"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/profile.jpg"} alt="demo1" loading="lazy"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/dashboard.PNG"} alt="demo2" loading="lazy"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/stats.PNG"} alt="demo3" loading="lazy"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/foods.PNG"} alt="demo4" loading="lazy"/>
                         </section>
                         <i>Fig. 3 - Medium-fidelity prototypes with full functions implemented</i>
                     </details>
@@ -121,7 +121,7 @@ function Portfolio() {
                             <p><b>Tools:</b> Java, Android Studio, Robolectric</p>
                         </div>
                         <figure>
-                            <img src={process.env.PUBLIC_URL + "/BOF.png"} alt="Birds of a Feather Wireframe" />
+                            <img src={process.env.PUBLIC_URL + "/BOF.png"} alt="Birds of a Feather Wireframe" loading="lazy"/>
                             <figcaption><i>Fig. 4 - One of the wireframes we drew</i></figcaption>
                         </figure>
                     </details>
