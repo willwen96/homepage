@@ -54,6 +54,42 @@
 #Home #home {
     padding-top: 17vh;
 }
+
+.music-control {
+    position: fixed;
+    bottom: 64px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #555;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.music-control.spinning {
+    animation: spin 2s linear infinite;
+}
+
+/*.music-control:hover {*/
+/*    background-color: #555;*/
+/*}*/
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 /*nav > a {*/
 /*    visibility: visible;*/
 /*}*/

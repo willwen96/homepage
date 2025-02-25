@@ -34,11 +34,11 @@ function Skills() {
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/node.svg"} alt="Node.js icon" />
-                        <p> Node.js </p> <br /> <p> 2 Years <br /> 2 Projects </p>
+                        <p> Node.js </p> <br /> <p> 2 Years <br /> 3 Projects </p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/javascript.svg"} alt="Javascript icon" />
-                        <p> JavaScript </p> <br /> <p> 2 Years <br /> 3 Projects </p>
+                        <p> JavaScript </p> <br /> <p> 3 Years <br /> 4 Projects </p>
                     </section>
                     <section className="last_row">
                         <img src={process.env.PUBLIC_URL + "/html.svg"} alt="HTML icon" />
@@ -54,7 +54,7 @@ function Skills() {
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/python.svg"} alt="Python icon" />
-                        <p> Python </p> <br /> <p> 5 Years <br /> Projects: ML, Tensorflow, AI</p>
+                        <p> Python </p> <br /> <p> 5 Years <br /> Projects: ML, Tensorflow, Server</p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/cpp_logo.svg"} alt="C/C++ icon" />
@@ -74,11 +74,11 @@ function Skills() {
                 <div className="grid">
                     <section>
                         <img src={process.env.PUBLIC_URL + "/android-studio.svg"} alt="Android Studio icon" loading="lazy"/>
-                        <p> Android Studio</p> <br /> <p>1 Year <br /> 1 Project</p>
+                        <p> Android Studio</p> <br /> <p>2 Years <br /> 2 Projects</p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/aws.svg"} alt="AWS icon" loading="lazy"/>
-                        <p> AWS </p> <br /> <p> 1 Year <br /> Services: S3, Route 53</p>
+                        <p> AWS </p> <br /> <p> 1 Year <br /> Services: S3, Route 53, EC2</p>
                     </section>
                     <section>
                         <img src={process.env.PUBLIC_URL + "/linux.svg"} alt="Linux icon" loading="lazy"/>
@@ -89,8 +89,8 @@ function Skills() {
                         <p> Github </p> <br /> <p> 3 Years <br /> ID: <a href="https://github.com/willwen96" style={{color: '#0077BE'}}>willwen96</a></p>
                     </section>
                     <section className="last_row">
-                        <img src={process.env.PUBLIC_URL + "/zenhub.svg"} alt="Zenhub icon" loading="lazy"/>
-                        <p> Zenhub </p> <br /><p> 1 Year <br /> 1 Project</p>
+                        <img src={process.env.PUBLIC_URL + "/Xcode.png"} alt="Xcode icon" width="70px" height="70px" loading="lazy"/>
+                        <p> Xcode </p> <br /><p> 1 Year <br /> 1 Project</p>
                     </section>
                 </div>
                 <hr />

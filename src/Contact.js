@@ -4,6 +4,12 @@ import './contact.css';
 import './Effect';
 
 function Contact() {
+    function fbSummit(e) {
+        e.preventDefault()
+
+        alert("Sorry. This form is not longer used. Please contact me directly by the email address in my resume.")
+    }
+
     return (
         <main id="Contact">
             <nav id="mobile_menu">
@@ -22,14 +28,14 @@ function Contact() {
                     <img src={process.env.PUBLIC_URL + "/contact_me.png"} alt="Contact" style={{ width: "100%" }} />
                 </picture>
                 <section id="contact_form">
-                    <form action="form-handler.php" method="post" id="my_form"></form>
+                    <form onSubmit={fbSummit}  id="my_form"></form>
                     <h1 style={{ margin: "20px 0 10px 7px", color: "#0077BE" }}>Let's Chat</h1>
                     <table>
                         <tbody>
                             <tr>
                                 <td>
                                     <label htmlFor="name" form="my_form">
-                                        Name: <span style={{ color: "darkred" }}></span>
+                                        Name: <span style={{ color: "darkred" }}>*</span>
                                     </label>
                                 </td>
                             </tr>
@@ -41,7 +47,7 @@ function Contact() {
                             <tr>
                                 <td>
                                     <label htmlFor="email" form="my_form">
-                                        Email: <span style={{ color: "darkred" }}></span>
+                                        Email: <span style={{ color: "darkred" }}>*</span>
                                     </label>
                                 </td>
                             </tr>

@@ -24,6 +24,25 @@ function Portfolio() {
             <div id="main_page" className="wrapper">
                 <h1>My Portfolio</h1>
                 <section className="work">
+                    <details open style={{width: '100%'}}>
+                        <a href="https://memohub.framer.website/" target="_blank">
+                            <summary><strong>MemoHub</strong></summary>
+                        </a>
+                        <p>An iOS app that effortlessly sorts your ideas, plans, and notes with smart tags designed for clarity and efficiency</p><br/>
+                        <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", width: "fit-content"}}>
+                            <p style={{width: "fit-content"}}><b>Role: </b>Product Owner & Tech Lead</p>
+                            <p><b>Tools:</b> SwiftUI, Firebase, Claude API</p>
+                        </div>
+                        <section className={"flex_row"} style={{justifyContent: 'space-evenly', width: '100%'}}>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/MemoHub.PNG"} alt="demo1"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/MemoHub1.PNG"} alt="demo2"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/MemoHub2.PNG"} alt="demo3"/>
+                            <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/MemoHub3.PNG"} alt="demo4"/>
+                        </section>
+                        <i>Fig. 1 - High-fidelity prototypes of main features</i>
+                    </details>
+                </section>
+                <section className="work">
                     <details open>
                         <summary><strong>CyberArch Warehouse Intern</strong></summary>
                         <p>Provide a sustainable approach to preserve knowledge of endangered cultural heritage sites
@@ -60,7 +79,7 @@ function Portfolio() {
                             <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo3.png"} alt="demo3"/>
                             <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/map_demo4.png"} alt="demo4"/>
                         </section>
-                        <i>Fig. 1 - Medium-fidelity prototypes with full functions implemented</i>
+                        <i>Fig. 2 - Medium-fidelity prototypes with full functions implemented</i>
                     </details>
                 </section>
                 <section className="work">
@@ -77,7 +96,7 @@ function Portfolio() {
                             <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/stats.PNG"} alt="demo3"/>
                             <img style={{ margin: "10px 10px", width: '23%'}} src={process.env.PUBLIC_URL + "/foods.PNG"} alt="demo4"/>
                         </section>
-                        <i>Fig. 2 - Medium-fidelity prototypes with full functions implemented</i>
+                        <i>Fig. 3 - Medium-fidelity prototypes with full functions implemented</i>
                     </details>
                 </section>
                 <section className="work">
@@ -89,7 +108,7 @@ function Portfolio() {
                             <p style={{width: "fit-content"}}><b>Role: </b> Tech Lead</p>
                             <p><b>Tools:</b> Vue, AWS, SpringBoot, Node.js</p>
                         </div>
-                        <a href="https://dynamic-crisp-4efd82.netlify.app/" target="_blank"><img src={process.env.PUBLIC_URL + "/GT_home.svg"} alt="Goal Tritons' Home Page" width="680px" height="510px" loading="lazy" style={{marginLeft: "50px"}}/></a>
+                        <a href="https://dynamic-crisp-4efd82.netlify.app/" target="_blank"><img src={process.env.PUBLIC_URL + "/GT_home.svg"} alt="Goal Tritons' Home Page" width="680px" height="510px" loading="lazy"/></a>
                     </details>
                 </section>
                 <section className="work">
@@ -102,7 +121,7 @@ function Portfolio() {
                         </div>
                         <figure>
                             <img src={process.env.PUBLIC_URL + "/BOF.png"} alt="Birds of a Feather Wireframe" />
-                            <figcaption><i>Fig. 3 - One of the wireframes we drew</i></figcaption>
+                            <figcaption><i>Fig. 4 - One of the wireframes we drew</i></figcaption>
                         </figure>
                     </details>
                 </section>
